@@ -135,7 +135,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
         // Initialize label and create a label which holds the score
         score = 0
         scoreLabelNode = SKLabelNode(fontNamed:"MarkerFelt-Wide")
-        scoreLabelNode.position = CGPoint( x: self.frame.midX, y: 3 * self.frame.size.height / 4 )
+        scoreLabelNode.position = CGPoint( x: self.frame.midX, y: 3.6 * self.frame.size.height / 4 )
         scoreLabelNode.zPosition = 100
         scoreLabelNode.text = String("\(score) Billion market cap")
         self.addChild(scoreLabelNode)
